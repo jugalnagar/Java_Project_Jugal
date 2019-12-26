@@ -1,0 +1,104 @@
+@charset "ISO-8859-1";
+
+
+.backgroundloginpage{
+	background-image:url("bimg.jpg");
+	
+}
+
+.textshifting{
+	text-align: center;
+}
+
+.studentimg{
+	
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+.header{
+	
+	text-align:center;
+	background-color:  #F2F2F0;
+	border-top: 30px   #F52887 solid;
+	border-bottom: 4px   #F52887 solid;
+}
+
+.notif{
+	height: 20px;
+	background-color:#F52887;
+	text-align:center;
+	color:blue;
+}
+
+.imageofheader{
+	align:left;
+}
+
+.background{
+	face:strong;
+	background-color:#F2F2F0;
+	background-image: url("E:\Career_Point_Coaching\WebContent\bimg.jpg");
+	height: 150px; /* You must set a specified height */
+  	background-position: center; /* Center the image */
+  	background-repeat: no-repeat; /* Do not repeat the image */
+  	background-size: cover;
+}
+
+.sliderframe{
+	overflow:hidden;
+	height:500%;
+	width:500%
+	margin-top:20px;
+	margin-left:20px;
+}
+
+@-webkit-keyframes Slide_animation{
+	0% {left:0px}
+	10% {left:0px}
+	20% {left:1200px}
+	30% {left:1200px}
+	40% {left:2400px}
+	50% {left:2400px}
+	60% {left:1200px}
+	70% {left:1200px}
+	80% {left:0px}
+	90% {left:0px}
+	100% {left:0px}
+}
+
+.slide-image{
+	height:500px;
+	width:500px;
+	margin:10 10 10 10px;
+	position:relative;
+	-webkit-animation-name:Slide_animation;
+	-webkit-animation-duration:50s;
+	-webkit-animation-itretion-count:infinite;
+	-webkit-animation-direction:alternate;
+	-webkit-animation-play-state:running;
+	
+}
+
+.image-container{
+	height:500px;
+	width:500px;
+	position:relative;
+	float: left;	
+}
+
+.result-update-form{
+	background-color:#45B39D;
+	height:300px;
+	width:400px;
+}
+
+.form-center{
+	align:center;
+}
